@@ -1,0 +1,165 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[10pt,a4paper,sans]{moderncv}
+% character encoding
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+% CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{casual}
+% CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{green}
+
+\usepackage{multicol}
+
+% Reduce document margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+% Changes the symbol used for lists
+\renewcommand{\listitemsymbol}{-~}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+% Your first name
+\firstname{Benjamin}
+% Your last name
+\familyname{Sientzoff}
+% All information in this block is optional, comment out any lines you don't need
+\title{Entrepenur and Freelance Developer}
+\address{Stipendie\"{a}nd 10A 106}{Ume\r{a}, 907 35}{Sweden}
+\mobile{(+46) 70 488 59 32}
+\email{benjamin.sientzoff@yahoo.fr}
+\homepage{blasterbug.github.io}
+% The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\photo[80pt][0pt]{picture}
+\quote{A challenging position in a young company where I can use and improve my skills.}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+% Print the CV title
+\makecvtitle
+
+%----------------------------------------------------------------------------------------
+%	BACKGROUND SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Background}
+
+\subsection{Education}
+% Arguments not required can be left empty
+\cventry{2015~-~2016}{Master's Programme}{Ume\r{a} University}{Ume\r{a}}{First year, as an exchange student (Erasmus)}{Distributed Systems, Artificial Intelligence, Database : Management and Administration}  % Arguments not required can be left empty
+\cventry{2013~-~2015}{Bachelor}{Nantes University}{Nantes, France}{Computer Science}{}
+\cventry{2010~-~2013}{Two year's diploma (DUT)}{Institute of Technology of Nantes}{Nantes, France}{Computer Science}{}
+
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\subsection{Work Experience}
+
+\cventry{2016}{Freelance}{5 months}{Thingmap, Ume\r{a}, Sweden}{}{ful stack developer. Extended the REST API of the back-end, bug fix and improvement of the current front-end applications (Web and mobile). I deal with Node.js, REACT, Angular.js and MongoDB.}
+
+\cventry{2015}{Internship}{4 months}{IRCCyN, Nantes, France}{}{Third internship within
+the Real Time Systems team of the IRCCyN (a French research Unit, part of the
+CNRS) leaded by Richard Urunuela. My task was to build a new robot with
+metal parts and a Arduino Board for the ANR ImpRo Demonstrator.}
+
+\cventry{2014}{Volunteer Internship}{12 weeks}{IRCCyN, Nantes, France}{}{Second
+internship at IRCCyN with the Real Time System team, leaded by Richard Urunuela.
+The purpose was  to add a camera to the robots of the ANR ImpRo demonstrator.
+The camera is actually a Arduino Uno board connected to a CMUcam4 and five
+sensors.}
+
+
+\cventry{2013}{Internship}{10 weeks}{IRCCyN, Nantes, France}{}{First internship
+at IRCCyN, within the Real Time Systems team, leaded by Jean-Luc Béchennec,
+Sébastien Faucou and Richard Urunuela. During this internship, I designed a
+first prototype for the demonstrator of the ANR ImpRo project. The demonstrator
+is a table where two robots hit back and forth a ball. It is a kind of an
+air-hockey. Robots are built with Lego and controlled by the Lego Mindstorms
+NXT. Trampoline RTOS, the operating system developed by the team, allows the
+robot to be autonomous with Real Time features. It runs on the NXT. }
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitemwithcomment{Designing}{UML, Merise, Petri nets, Design Patterns}{}
+
+\cvitemwithcomment{Programming}{Python, C, C++, Java, Bash, Assembly language (MIPS and x86), OCaml, ADA95, Arduino, Processing}{}
+
+\cvitemwithcomment{Tools}{git, npm, Doxygen, JUnit, Maven, Travis CI}{}
+
+\cvitemwithcomment{Web}{(X)HTML, CSS/SASS, JavaScript, Node.js, React, AngularJS, PHP, Jekyll, Django}{}
+
+\cvitemwithcomment{Database}{SQL, PL/SQL, PostgreSQL, MongoDB}{}
+
+\cvitemwithcomment{Writing}{LaTeX, Markdown}{}
+
+
+\subsection{Specific skills}
+    \cvitem{}{Fully efficient with UNIX/Linux systems}
+    \cvitem{}{Real Time Systems (programming with Trampoline RTOS)}
+    \cvitem{}{Distributed Systems development (RESTful and SOAP applications)}
+    \cvitem{}{Artificial Intelligence (basic knowledge)}
+
+%----------------------------------------------------------------------------------------
+%	INTEREST SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Area of Interest}
+\cvitem{}{Real Time Systems \/ Embedded systems}
+\cvitem{}{Open-source development}
+\cvitem{}{Back-end \/ Front-end}
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+\section{Extra-Curricular Activities}
+\cvitemwithcomment{2013~-~2015}{Cashier (part-time job)}{Working as a cashier at a mini-market.}{}
+\cvitemwithcomment{2014~\&~2015}{Volunteer for Scopitone, a French festival about digital art}{Welcoming customers.}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{French}{Mother tongue}{Native speaker}
+\cvitemwithcomment{English}{Fluent}{Job done in English.I speak English everyday.}
+\cvitemwithcomment{Swedish}{Beginner (learning)}{I can introduce myself, read simple texts and I understand simple speeches.}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\cvitem{Cooking}{vegetarian and vegan dishes}
+\cvitem{Music}{Nine Inch Nails, Baroness, Massive Attack}
+
+\section{Personal Details}
+\cvitem{DOB}{June 23rd, 1992}
+\cvitem{Address}{Stipendiegr\"{a}nd 10A 106, 907 35 Ume\r{a},Sweden}
+\cvitem{Languages}{French, English, Swedish}
+\cvitem{Mobile No.}{(+46) 70 488 59 32}
+
+%\section{Declaration}
+%\cvitem{}{I hereby declare that the above mentioned information is correct up to my
+%knowledge and I bear the responsibility for the correctness of the above mentioned
+%particular.}
+%\cvitem{}{Date:}
+%\cvitem{}{Place:}
+%\cvitemwithcomment{}{}{\huge \color {black!20} Mahesh Gaikwad}
+
+\end{document}
